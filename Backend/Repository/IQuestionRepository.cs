@@ -2,6 +2,13 @@
 
 namespace Repository;
 
-public interface IQuestionRepository : IRepository<Question>
+public interface IQuestionRepository
 {
+    Task CreateAsync(Question question);
+
+    ValueTask<Question?> GetAsync(Key key);
+
+    Task UpdateAsync(Question entity);
+    
+    Task DeleteAsync(Question entity);
 }

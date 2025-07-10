@@ -2,13 +2,20 @@
 
 namespace Repository;
 
-public interface IRepository<in TEntity> where TEntity : Entity
+public abstract class RepositoryService<TEntity>(IDataContext dataContext) where TEntity : Entity
 {
-    Task CreateAsync(TEntity entity);
+    protected readonly IDataContext DataContext = dataContext;
+
+    public abstract Task CreateAsync(TEntity entity);
     
-    ValueTask<Question?> GetAsync(Key key);
+    public abstract ValueTask<TEntity?> GetAsync(Key key);
     
-    Task UpdateAsync(TEntity entity);
+    public abstract Task UpdateAsync(TEntity entity);
     
-    Task DeleteAsync(TEntity entity);
+    public abstract Task DeleteAsync(TEntity entity);
+    
+    protected Task SaveChangesAsync()
+    {
+        return DataContext.SaveChangesAsync(CancellationToken.None);
+    }
 }

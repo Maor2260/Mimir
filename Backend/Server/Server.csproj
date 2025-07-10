@@ -23,6 +23,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Controllers\Controllers.csproj" />
+      <ProjectReference Include="..\Hub\Hub.csproj" />
       <ProjectReference Include="..\Mapper\Mapper.csproj" />
       <ProjectReference Include="..\Repository\Repository.csproj" />
       <ProjectReference Include="..\Service\Service.csproj" />

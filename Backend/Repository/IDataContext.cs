@@ -17,4 +17,8 @@ public interface IDataContext
 
     DbSet<MultipleChoiceAnswer> Anwers_MultipleChoice { get; set; }
     
+    public DbSet<Player> Players { get; set; }
+
+    public DbSet<Match> Matches { get; set; }
+    
 }

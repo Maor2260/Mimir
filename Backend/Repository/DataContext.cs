@@ -14,6 +14,10 @@ public class DataContext : DbContext, IDataContext
     
     public DbSet<MultipleChoiceAnswer> Anwers_MultipleChoice { get; set; }
 
+    public DbSet<Player> Players { get; set; }
+
+    public DbSet<Match> Matches { get; set; }
+
     protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
     {
         configurationBuilder

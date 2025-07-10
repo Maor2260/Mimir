@@ -1,4 +1,6 @@
 ﻿using Repository;
+using Service.MatchService;
+using Service.PlayerService;
 using Service.QuestionService;
 
 namespace Server;
@@ -14,8 +16,12 @@ public static class ServiceExtensionMethods
     {
         service.AddScoped<IDataContext, DataContext>();
         service.AddScoped<IQuestionRepository, QuestionRepository>();
+        service.AddScoped<IMatchRepository, MatchRepository>();
+        service.AddScoped<IPlayerRepository, PlayerRepository>();
         
         service.AddScoped<IQuestionService, QuestionService>();
+        service.AddScoped<IMatchService, MatchService>();
+        service.AddScoped<IPlayerService, PlayerService>();
     }
 
     public static void SetupSwagger(this IServiceCollection service)
@@ -30,7 +36,9 @@ public static class ServiceExtensionMethods
         {
             options.AddDefaultPolicy(policy =>
             {
-                policy.WithOrigins(Environment.GetEnvironmentVariable("applicationUrl") ?? "http://localhost:5143")
+                //policy.WithOrigins(Environment.GetEnvironmentVariable("applicationUrl") ?? "http://localhost:5143")
+                //policy.AllowAnyOrigin()
+                policy.WithOrigins("http://localhost:5026")
                     .AllowAnyHeader()
                     .AllowAnyMethod()
                     .AllowCredentials();

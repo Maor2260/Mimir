@@ -10,9 +10,9 @@ public class AdminController : ControllerBase, IAdminFacade
 {
 
     [HttpGet]
-    [Route("ServerTime")]
+    [Route("GetServerTime")]
     public ActionResult<string> GetServerTime()
     {
-        return DateTime.Now.ToString(CultureInfo.CurrentCulture);
+        return Ok(DateTime.Now.ToString(CultureInfo.CurrentCulture));
     }
 }
