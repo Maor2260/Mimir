@@ -14,8 +14,7 @@ public class GameHub : Microsoft.AspNetCore.SignalR.Hub
     {
         _matchService = matchService;
     }
-
-
+    
     public Task<string> Test()
     {
         var response = DateTime.Now.ToString(CultureInfo.CurrentCulture);

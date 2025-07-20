@@ -2,7 +2,7 @@
 
 namespace HubConnector;
 
-public class HubConnector : IHubConnector
+public class Connector : IHubConnector
 {
     private static readonly Uri BASE_ADDRESS = new Uri("http://localhost:5143/hub");
     

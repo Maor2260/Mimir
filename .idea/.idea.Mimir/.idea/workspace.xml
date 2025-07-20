@@ -20,40 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2c37c7e-4585-4185-9f91-ec459808dc59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Backend/Controllers/GameController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/DataModel/Match.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/DataModel/Player.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/Hub/GameHub.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/Repository/IMatchRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/Repository/IPlayerRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/Repository/MatchRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/Repository/PlayerRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/Service/Exceptions/PlayerNotFoundException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/Service/MatchService/CreateMatchDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/Service/MatchService/IMatchService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/Service/MatchService/MatchService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/Service/PlayerService/CreateGuestPlayerDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/Service/PlayerService/CreatePlayerDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/Service/PlayerService/GetPlayerDTO'.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/Service/PlayerService/IPlayerService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/Service/PlayerService/PlayerService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/ApiFacade/GameFacade/IGameFacade.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/BlazorWebAssemblyApp/Pages/Home.razor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/HubConnector/HubConnector.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/HubConnector/IHubConnector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/BlazorWebAssemblyApp/Components/NavMenuItem.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Mimir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mimir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Controllers/AdminController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Controllers/AdminController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Hub/Hub.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Hub/Hub.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Repository/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Repository/DataContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Repository/IDataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Repository/IDataContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Repository/IQuestionRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Repository/IQuestionRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Repository/QuestionRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Repository/QuestionRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Repository/Repository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Repository/Repository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Server/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Server/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Server/Server.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Server/Server.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Server/ServiceExtensionMethods.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Server/ServiceExtensionMethods.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mimir.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Mimir.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mimir.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Mimir.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Hub/GameHub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Hub/GameHub.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/BlazorWebAssemblyApp/Layout/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/BlazorWebAssemblyApp/Layout/MainLayout.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/BlazorWebAssemblyApp/Layout/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/BlazorWebAssemblyApp/Layout/NavMenu.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/BlazorWebAssemblyApp/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/BlazorWebAssemblyApp/Pages/Home.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/BlazorWebAssemblyApp/Pages/Home.razor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/BlazorWebAssemblyApp/Pages/Home.razor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/BlazorWebAssemblyApp/Pages/Weather.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/BlazorWebAssemblyApp/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/BlazorWebAssemblyApp/_Imports.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/BlazorWebAssemblyApp/wwwroot/sample-data/weather.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/HubConnector/HubConnector.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/HubConnector/HubConnector.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,27 +82,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.BlazorWebAssemblyApp: WebAppDev.executor": "Run",
-    ".NET Launch Settings Profile.BlazorWebAssemblyApp: http.executor": "Debug",
-    ".NET Launch Settings Profile.Server: API v1.executor": "Debug",
-    ".NET Launch Settings Profile.Server: http.executor": "Debug",
-    ".NET Launch Settings Profile.WebApp: http.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.BlazorWebAssemblyApp: WebAppDev.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.BlazorWebAssemblyApp: http.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Launch Settings Profile.Server: API v1.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Launch Settings Profile.Server: http.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Launch Settings Profile.WebApp: http.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Multi-Launch.Run Dev">
     <configuration name="Server" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Backend/Server/bin/Debug/net9.0/Server.exe" />
@@ -266,6 +243,7 @@
       <workItem from="1751914015147" duration="1769000" />
       <workItem from="1751930683196" duration="18582000" />
       <workItem from="1752096305168" duration="3725000" />
+      <workItem from="1752126506277" duration="5701000" />
     </task>
     <task id="LOCAL-00001" summary="DEV-0001 Created base structure of the project&#10;&#10;Minimal functionality working:&#10;API controller -&gt; Mapper -&gt; Service -&gt; Repository">
       <option name="closed" value="true" />
@@ -275,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751761454888</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DEV-0001 Starting&#10;&#10;Added the frontend project:&#10;ApiConnector, HubConnector and the BlazorWebApp.&#10;&#10;Created an initial request and response for creating a new match!">
+      <option name="closed" value="true" />
+      <created>1752188422373</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752188422373</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +283,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="DEV-0001 Created base structure of the project&#10;&#10;Minimal functionality working:&#10;API controller -&gt; Mapper -&gt; Service -&gt; Repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="DEV-0001 Created base structure of the project&#10;&#10;Minimal functionality working:&#10;API controller -&gt; Mapper -&gt; Service -&gt; Repository" />
+    <MESSAGE value="DEV-0001 Starting&#10;&#10;Added the frontend project:&#10;ApiConnector, HubConnector and the BlazorWebApp.&#10;&#10;Created an initial request and response for creating a new match!" />
+    <option name="LAST_COMMIT_MESSAGE" value="DEV-0001 Starting&#10;&#10;Added the frontend project:&#10;ApiConnector, HubConnector and the BlazorWebApp.&#10;&#10;Created an initial request and response for creating a new match!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -350,13 +337,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Backend/Hub/GameHub.cs</url>
-          <line>20</line>
+          <line>19</line>
           <properties documentPath="X:\Projects\Rider\Mimir\Backend\Hub\GameHub.cs" containingFunctionPresentation="Method 'Test'">
             <startOffsets>
-              <option value="428" />
+              <option value="431" />
             </startOffsets>
             <endOffsets>
-              <option value="493" />
+              <option value="496" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="18" />

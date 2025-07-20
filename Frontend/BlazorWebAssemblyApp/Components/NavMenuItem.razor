@@ -1,0 +1,13 @@
+﻿@code {
+    [Parameter] public required string Target { get; set; }
+
+    [Parameter] public required string IconName { get; set; }
+
+    [Parameter] public required string Title { get; set; }
+}
+
+<div class="nav-item px-3" @key="Title">
+    <NavLink class="nav-link" href="@Target" Match="NavLinkMatch.All">
+        <span class="bi @IconName" aria-hidden="true" @key="Title"></span> @Title
+    </NavLink>
+</div>
